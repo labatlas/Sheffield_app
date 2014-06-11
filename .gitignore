@@ -1,0 +1,9 @@
+# Ignore these folders for now (they're a bit big)
+app/palm_circular/
+app/palm_test1/
+app/screw_discrimination/
+app/screw_discrimination_takktile.zip
+app/screw_discrimination_takktile/
+app/screw_discrimination_with_delay/
+app/testSensor/
+
