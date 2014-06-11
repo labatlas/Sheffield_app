@@ -1,0 +1,20 @@
+% Uriel Martinez
+% Date: 10-11-2012
+% Script to plot and print the data collected from the cylinders
+
+trial = 1;
+folder = 1;
+cylinders = 2;
+
+h =figure(1);
+
+for i = 1:cylinders
+    cyl{i} = load(['object' num2str(folder) '/data_' num2str(i-1) '_' num2str(trial-1) '.txt' ]);
+    subplot(cylinders, 1, i)
+    plot(cyl{i})
+end
+
+print(h, ['data_' num2str(folder)], '-djpeg');
+
+pause
+

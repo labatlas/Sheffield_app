@@ -1,0 +1,6 @@
+Details
+
+Palm mounted in vertical orientation
+
+Number of taps: 80
+Tap step: 1.0 mm
